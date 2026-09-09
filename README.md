@@ -1,4 +1,4 @@
-# 🤖 AI Chatbot Assistant
+#  AI Chatbot Assistant
 
 An interactive **AI Chatbot Assistant** built with **Python, Streamlit, OpenAI, and LangChain**. The application provides a user-friendly chat interface where users can ask questions and receive AI-generated responses.
 
@@ -6,27 +6,27 @@ The chatbot supports conversation history, coding assistance, explanations, crea
 
 ---
 
-## ✨ Features
+##  Features
 
-* 🤖 AI-powered conversational chatbot
-* 💬 Interactive chat interface
-* 🧠 Conversation history and context
-* 🔑 Secure API key input through the sidebar
-* 🔒 API key is stored only during the current session
-* 📊 Chat statistics
-* 🗑️ Clear chat history option
-* ⚙️ Sidebar configuration
-* 🎨 Custom CSS styling
-* ⏳ Loading/spinner while generating responses
-* ⚠️ Error handling for API and application errors
-* 💻 Coding assistance
-* 📚 Detailed explanations
-* ✍️ Creative writing support
-* 🌐 General knowledge assistance
+*  AI-powered conversational chatbot
+*  Interactive chat interface
+*  Conversation history and context
+*  Secure API key input through the sidebar
+*  API key is stored only during the current session
+*  Chat statistics
+*  Clear chat history option
+*  Sidebar configuration
+*  Custom CSS styling
+*  Loading/spinner while generating responses
+*  Error handling for API and application errors
+*  Coding assistance
+*  Detailed explanations
+*  Creative writing support
+*  General knowledge assistance
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 ### 1. Python
 
@@ -69,7 +69,7 @@ This allows the application to preserve conversation information while the user 
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```text
 AI-Chatbot-Assistant/
@@ -93,7 +93,7 @@ Provides project documentation, setup instructions, technologies, and usage info
 
 ---
 
-## 📦 Requirements
+##  Requirements
 
 The project uses packages including:
 
@@ -115,7 +115,7 @@ Your current requirements file also contains additional LangChain and Pinecone-r
 
 ---
 
-## 🚀 Installation
+##  Installation
 
 ### Step 1: Clone the Repository
 
@@ -153,7 +153,7 @@ pip install -r requirements.txt
 
 ---
 
-## 🔑 OpenAI API Key
+##  OpenAI API Key
 
 The application requires an **OpenAI API key**.
 
@@ -166,11 +166,11 @@ When the application starts:
 
 The application checks that the entered key begins with `sk-` before initializing the chat.
 
-> ⚠️ **Important:** Never upload your API key to GitHub or put it directly inside your source code.
+>  **Important:** Never upload your API key to GitHub or put it directly inside your source code.
 
 ---
 
-## ▶️ Run the Application
+##  Run the Application
 
 Run the following command from the project folder:
 
@@ -182,7 +182,7 @@ Streamlit will start the application and provide a local web address where you c
 
 ---
 
-## 💬 How to Use
+##  How to Use
 
 1. Launch the application.
 2. Enter your OpenAI API key in the sidebar.
@@ -196,7 +196,7 @@ The application builds a LangChain prompt containing a system instruction, previ
 
 ---
 
-## 📊 Chat Statistics
+##  Chat Statistics
 
 The sidebar displays:
 
@@ -208,7 +208,7 @@ These values are calculated from the current Streamlit session's message history
 
 ---
 
-## 🧠 AI Processing Flow
+##  AI Processing Flow
 
 ```text
 User
@@ -248,21 +248,21 @@ This is implemented using LangChain's runnable pipeline.
 
 ---
 
-## 🎯 Use Cases
+##  Use Cases
 
 This chatbot can be used for:
 
-* 📚 Educational questions
-* 💻 Programming assistance
-* 🧠 Concept explanations
-* ✍️ Creative writing
-* 🌐 General knowledge
-* 📝 Study assistance
-* 🔍 Question answering
+*  Educational questions
+*  Programming assistance
+*  Concept explanations
+*  Creative writing
+*  General knowledge
+*  Study assistance
+*  Question answering
 
 ---
 
-## 🔐 Security
+##  Security
 
 The application accepts the OpenAI API key through a password-type input field and keeps it in Streamlit's session state rather than saving it permanently.
 
@@ -270,31 +270,31 @@ For production deployment, environment variables or a secure secrets-management 
 
 ---
 
-## ⚠️ Error Handling
+##  Error Handling
 
 If an error occurs while communicating with the AI model, the application catches the exception and displays an error message to the user instead of terminating the interface.
 
 ---
 
-## 🔮 Future Improvements
+##  Future Improvements
 
 Possible improvements include:
 
-* 🔐 Use Streamlit Secrets for API key management
-* 💾 Persistent conversation storage
-* 📄 PDF/document question answering
-* 🗃️ Vector database integration
-* 🔎 RAG-based question answering
-* 🎤 Voice input
-* 🔊 Text-to-speech responses
-* 🌙 Dark/light theme options
-* 👥 User authentication
-* 📈 Advanced analytics
-* 🤖 Support for newer OpenAI models
+*  Use Streamlit Secrets for API key management
+*  Persistent conversation storage
+*  PDF/document question answering
+*  Vector database integration
+*  RAG-based question answering
+*  Voice input
+*  Text-to-speech responses
+*  Dark/light theme options
+*  User authentication
+*  Advanced analytics
+*  Support for newer OpenAI models
 
 ---
 
-## 👩‍💻 Author
+##  Author
 
 **Aqsa Ahmad**
 
@@ -302,6 +302,6 @@ AI Chatbot Assistant Project
 
 ---
 
-## 📄 License
+##  License
 
 This project is developed for educational and learning purposes.
